@@ -1,0 +1,54 @@
+id,question,baseline_route,baseline_answer,baseline_latency_s,baseline_tokens,sc_route,sc_answer,sc_latency_s,sc_tokens,sc_missing,sc_trace
+G5000-28,"Which model providers are connected to Google Cloud Next '23 in the selected data, and which models are associated with each provider?",hop2,"The model providers connected to Google Cloud Next '23 in the selected data are:
+
+1. **OpenAI**
+   - Models associated: 
+     - GPT-3.5 Turbo
+     - GPT-4
+     - AI technology (general)
+     - Open-source language model
+     - GPT-3 technology
+
+2. **Google**
+   - Models associated:
+     - Google services
+     - Bard tech
+     - Pixel Fold (uses Bard tech)
+
+There is no specific mention of other model providers or their associated models in the provided context.",1.6005201999796554,4045,hop3+vector,"The model providers connected to Google Cloud Next '23 in the selected data are:
+
+1. **OpenAI**
+   - Models: GPT-3.5 Turbo, GPT-4 [chunk_id=c0000]
+
+2. **ServiceNow**
+   - Model: Now Assist for Virtual Agent [chunk_id=c0000]
+
+3. **NVIDIA**
+   - No specific models mentioned, but involved in generative AI adoption [chunk_id=c0000].
+
+No other model providers or specific models associated with them are mentioned in the provided context.",1.620978599996306,4863,specific model providers connected to Google Cloud Next '23 and the models associated with each provider,"[{""step"": ""hop2"", ""sufficient"": false, ""missing"": ""specific information about model providers connected to Google Cloud Next '23 and the models associated with each provider."", ""n_edges"": 41}, {""step"": ""hop3"", ""sufficient"": false, ""missing"": ""specific model providers connected to Google Cloud Next '23 and the models associated with each provider"", ""n_edges"": 99}, {""step"": ""vector_fallback"", ""sufficient"": null, ""missing"": ""specific model providers connected to Google Cloud Next '23 and the models associated with each provider"", ""n_edges"": 99}]"
+G5000-31,"Order OpenAI's ecosystem moves from March through July 2023 using the selected sources: plug-ins, open-source model planning, marketplace planning, and AP collaboration.",hop2,"The order of OpenAI's ecosystem moves from March through July 2023 is as follows:
+
+1. **March 17, 2023**: Meta launched a subscription service in the U.S. [chunk_id=c0000].
+2. **April 6, 2023**: OpenAI partnered with TechSee to integrate ChatGPT with TechSee's Computer Vision AI [chunk_id=c0000].
+3. **April 11, 2023**: Sundar Pichai confirmed that Google would soon add AI to its search engine [chunk_id=c0000].
+4. **April 14, 2023**: AI technologies were reported to assist in diagnosing Alzheimer's disease [chunk_id=c0000].
+5. **May 3, 2023**: Google and Meta were noted as big tech companies wo",4.474215300055221,3411,hop3+vector,"The order of OpenAI's ecosystem moves from March through July 2023 is as follows:
+
+1. **Open-source model planning**: On May 15, 2023, OpenAI was reported to be preparing to release a new open-source language model to the public [chunk_id=https://www.reuters.com/technology/openai-readies-new-open-source-ai-model-information-2023-05-15/::c0000].
+
+2. **Marketplace planning**: On June 20, 2023, OpenAI announced plans to launch a marketplace that would allow developers to sell AI models built on its technology [chunk_id=https://www.reuters.com/technology/openai-plans-app-store-ai-software-informat",4.147836000076495,5136,"specific details about OpenAI's ecosystem moves from March through July 2023 regarding plug-ins, open-source model planning, marketplace planning, and AP collaboration.","[{""step"": ""hop2"", ""sufficient"": false, ""missing"": ""specific details about OpenAI's ecosystem moves from March through July 2023 regarding plug-ins, open-source model planning, marketplace planning, and AP collaboration."", ""n_edges"": 35}, {""step"": ""hop3"", ""sufficient"": false, ""missing"": ""specific details about OpenAI's ecosystem moves from March through July 2023 regarding plug-ins, open-source model planning, marketplace planning, and AP collaboration."", ""n_edges"": 70}, {""step"": ""vector_fallback"", ""sufficient"": null, ""missing"": ""specific details about OpenAI's ecosystem moves from March through July 2023 regarding plug-ins, open-source model planning, marketplace planning, and AP collaboration."", ""n_edges"": 70}]"
+G5000-34,Compare how Google Cloud and Amazon expanded their AI ecosystems in the selected data. Which third-party model/technology suppliers are named for each?,hop2,"Amazon and Google have both expanded their AI ecosystems through investments and partnerships, but the specific third-party model/technology suppliers they have engaged with differ.
+
+**Amazon:**
+- Amazon has partnered with **Hugging Face**, a company known for its AI models, including those that compete with ChatGPT [chunk_id=c0000].
+- Additionally, Amazon's cloud computing division is heavily utilized by major companies like **Netflix** [chunk_id=c0000].
+
+**Google:**
+- The context does not provide specific third-party model/technology suppliers that Google has partnered with in its AI ecosyst",1.9883198000025004,1339,hop3+vector,"Google Cloud and Amazon have both expanded their AI ecosystems through strategic partnerships and investments in technology. 
+
+**Google Cloud** has partnered with:
+- **OpenAI**: Collaborating on commitments to manage AI responsibly [chunk_id=https://www.wfae.org/united-states-world/united-states-world/2023-07-21/the-white-house-and-big-tech-companies-release-commitments-on-managing-ai::c0000].
+- **Meta**: Also involved in the same AI management commitments [chunk_id=https://www.wfae.org/united-states-world/united-states-world/2023-07-21/the-white-house-and-big-tech-companies-release-commitment",4.045361100113951,4267,"Specific details on how Google Cloud and Amazon expanded their AI ecosystems, including key entities, relations, or dates related to their AI initiatives.","[{""step"": ""hop2"", ""sufficient"": false, ""missing"": ""specific details on how Google Cloud and Amazon expanded their AI ecosystems, including named third-party model/technology suppliers for each."", ""n_edges"": 14}, {""step"": ""hop3"", ""sufficient"": false, ""missing"": ""Specific details on how Google Cloud and Amazon expanded their AI ecosystems, including key entities, relations, or dates related to their AI initiatives."", ""n_edges"": 38}, {""step"": ""vector_fallback"", ""sufficient"": null, ""missing"": ""Specific details on how Google Cloud and Amazon expanded their AI ecosystems, including key entities, relations, or dates related to their AI initiatives."", ""n_edges"": 38}]"
+G5000-37,What evidence shows Dell NativeEdge moving from a May product announcement to a July use-case description?,hop2,"The evidence indicating Dell NativeEdge's transition from a May product announcement to a July use-case description is not explicitly provided in the supplied context. Therefore, I cannot confirm this transition based on the available information.",1.0399550999281928,117,hop3+vector,"The evidence indicating Dell NativeEdge's transition from a May product announcement to a July use-case description is found in the context of its platform's capabilities. In July, it was reported that Dell's NativeEdge platform could facilitate the deployment and management of edge computing applications through validated designs for industry-specific use cases [chunk_id=https://www.computerweekly.com/resources/Networking-and-communication::c0000 | date=2023-07-17]. This suggests that by July, Dell was focusing on practical applications and use cases for the platform, moving beyond the initia",1.6532632999587804,1014,empty_context,"[{""step"": ""hop2"", ""sufficient"": false, ""missing"": ""empty_context"", ""n_edges"": 0}, {""step"": ""hop3"", ""sufficient"": false, ""missing"": ""empty_context"", ""n_edges"": 0}, {""step"": ""vector_fallback"", ""sufficient"": null, ""missing"": ""empty_context"", ""n_edges"": 0}]"
+G5000-44,What two distinct partner ecosystems connect L&T Technology Services to advanced infrastructure in 2023: one for urban-rail 5G and one for OT security?,hop2,"In 2023, L&T Technology Services is connected to advanced infrastructure through two distinct partner ecosystems: one for urban-rail 5G, and another for operational technology (OT) security. However, the specific partners for these ecosystems are not provided in the supplied context. The only mentioned partnership is with Airbus, which does not relate to either ecosystem. Therefore, evidence for the specific partners in these ecosystems is insufficient.",1.750938200042583,236,hop3+vector,"In 2023, L&T Technology Services is connected to advanced infrastructure through two distinct partner ecosystems: one for urban-rail 5G in collaboration with Qualcomm and Thales, and another for operational technology (OT) security, although specific partners for the OT security ecosystem are not mentioned in the provided context. The partnership for urban-rail 5G was highlighted in a press release dated February 23, 2023 [chunk_id=https://www.businesswireindia.com/lt-technology-services-and-qualcomm-selected-by-thales-for-enabling-5g-private-networks-in-urban-railways-83167.html::c0000].",1.7203283000271767,1106,specific partner ecosystems for urban-rail 5G and OT security,"[{""step"": ""hop2"", ""sufficient"": false, ""missing"": ""specific partner ecosystems for urban-rail 5G and OT security"", ""n_edges"": 1}, {""step"": ""hop3"", ""sufficient"": false, ""missing"": ""specific partner ecosystems for urban-rail 5G and OT security"", ""n_edges"": 1}, {""step"": ""vector_fallback"", ""sufficient"": null, ""missing"": ""specific partner ecosystems for urban-rail 5G and OT security"", ""n_edges"": 1}]"

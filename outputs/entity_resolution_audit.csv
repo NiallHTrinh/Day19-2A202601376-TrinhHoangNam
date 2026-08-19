@@ -1,0 +1,24 @@
+type,left,right,similarity,decision
+Company,ServiceNow Inc.,ServiceNow,1.0,MERGE_MANUAL
+Technology,AWS,Amazon,1.0,MERGE_MANUAL
+Company,Facebook,Meta,1.0,MERGE_MANUAL
+Company,Amazon.com,Amazon,1.0,MERGE_MANUAL
+Company,Apple Inc,Apple,1.0,MERGE_MANUAL
+Company,Meta Platforms,Meta,1.0,MERGE_MANUAL
+Company,Microsoft Corp.,Microsoft,1.0,MERGE_MANUAL
+Company,IBM Corp.,IBM,1.0,MERGE_MANUAL
+Company,Amazon Web Services Inc.,Amazon,1.0,MERGE_MANUAL
+Company,Meta Platforms Inc,Meta,1.0,MERGE_MANUAL
+Company,Alphabet,Google,1.0,MERGE_MANUAL
+Company,MSFT,Microsoft,1.0,MERGE_MANUAL
+Company,Fidelity National Information Services Inc.,Fidelity National Information Services,0.9245240688323975,MERGE_VECTOR
+Company,Fidelity National Information Services Inc.,Fidelity National Information Services (FIS),0.8539952635765076,MERGE_VECTOR
+Company,Infosys Ltd.,Infosys,0.8904070854187012,MERGE_VECTOR
+Company,Fidelity National Information Services (FIS),Fidelity National Information Services,0.899174690246582,MERGE_VECTOR
+Company,Freeline Therapeutics Holdings plc,Freeline Therapeutics GmbH,0.8842350244522095,MERGE_VECTOR
+Company,Broadcom Inc,Broadcom,0.86212158203125,MERGE_VECTOR
+Technology,AI technology,AI technologies,0.9533270597457886,MERGE_VECTOR
+Technology,cloud-computing services,cloud computing,0.8830561637878418,REJECT_GUARD
+Technology,cloud-computing services,cloud services,0.8647987842559814,REJECT_GUARD
+Technology,technology office,Office of Technology,0.9318135976791382,REJECT_GUARD
+Technology,identity proofing and passwordless multi-factor authentication,multi-factor passwordless authentication,0.8659228086471558,REJECT_GUARD
